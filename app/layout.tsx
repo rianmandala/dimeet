@@ -48,8 +48,11 @@ export default function RootLayout({
           property="og:description"
           content="Join or host secure online meetings with Dimeet. Enjoy features like meeting scheduling, real-time collaboration, and more."
         />
-        <meta property="og:image" content="URL_TO_YOUR_IMAGE" />
-        <meta property="og:url" content="YOUR_WEBSITE_URL" />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dg6ymnwfn/image/upload/v1721423176/portofolio/projects/hnhm0h0aybr7zuxah500.png"
+        />
+        <meta property="og:url" content="https://dimeet.vercel.app/" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
@@ -60,8 +63,11 @@ export default function RootLayout({
           name="twitter:description"
           content="Experience secure and seamless online meetings with Dimeet. Start, manage, and schedule meetings with ease."
         />
-        <meta name="twitter:image" content="URL_TO_YOUR_IMAGE" />
-        <meta name="twitter:url" content="YOUR_WEBSITE_URL" />
+        <meta
+          name="twitter:image"
+          content="https://res.cloudinary.com/dg6ymnwfn/image/upload/v1721423176/portofolio/projects/hnhm0h0aybr7zuxah500.png"
+        />
+        <meta name="twitter:url" content="https://dimeet.vercel.app/" />
       </head>
       <ClerkProvider
         appearance={{
