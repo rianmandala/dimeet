@@ -1,6 +1,20 @@
-# 📞 Dimeet
+<div align="center">
+  <br />
+      <img src="https://res.cloudinary.com/dg6ymnwfn/image/upload/v1721423176/portofolio/projects/hnhm0h0aybr7zuxah500.png" alt="Dimeet Banner">
+  <br />
 
-Dimeet is a seamless online meeting platform built with Next.js, TypeScript, Clerk, getstream, shadcn, and Tailwind CSS. It offers a range of features to facilitate secure and efficient online meetings.
+  <div>
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
+    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  </div>
+
+  <h3 align="center">Dimeet</h3>
+
+   <div align="center">
+     Dimeet is a seamless online meeting platform built with Next.js, TypeScript, Clerk, getstream, shadcn, and Tailwind CSS. It offers a range of features to facilitate secure and efficient online meetings.
+    </div>
+</div>
 
 ## ✨ Features
 
@@ -37,7 +51,7 @@ Dimeet is a seamless online meeting platform built with Next.js, TypeScript, Cle
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/dimeet.git
+    git clone https://github.com/rianmandala/dimeet.git
     ```
 
 2. Navigate to the project directory:
@@ -56,6 +70,21 @@ Dimeet is a seamless online meeting platform built with Next.js, TypeScript, Cle
 
     ```bash
     yarn install
+    ```
+
+4. Set Up Environment Variables
+
+    Create a new file named `.env` in the root of your project and add the following content:
+
+    ```env
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+    CLERK_SECRET_KEY=
+
+    NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+    NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+    
+    NEXT_PUBLIC_STREAM_API_KEY=
+    STREAM_SECRET_KEY=
     ```
 
 ### Running the Development Server
