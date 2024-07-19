@@ -8,13 +8,10 @@ const UpcomingInfoMeeting = () => {
 
   const upcomingMeetingDate = useMemo(() => {
     if (!isLoading && Number(upcomingCalls?.length) > 0) {
-      const time = upcomingCalls?.[0]?.state?.startsAt?.toLocaleTimeString(
-        'en-US',
-        {
-          hour: '2-digit',
-          minute: '2-digit',
-        },
-      );
+      const time = upcomingCalls?.[0]?.state?.startsAt?.toLocaleTimeString([], {
+        hour: '2-digit',
+        minute: '2-digit',
+      });
       return `Upcoming Meeting at: ${time}`;
     }
     return 'No Meetings Scheduled';
